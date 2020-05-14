@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualization Dashboard</title>
+    <title>Cloudiness Visualization</title>
   
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -44,14 +44,31 @@
               <li class="nav-item">
                 <a class="nav-link" href="data.html">Data</a>
               </li>
-                        <!--<li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                        </li> -->
             </ul>
           </div>
         </nav>
     </div>    
-    <h1>Cloudiness</h1>
-    <img src="assets/images/Fig3.png" width="400px" height="400px">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>Cloudiness</h1>
+        <hr>
+        <img src="assets/images/Fig3.png" class="textbottom">
+        <p>There does not appear to be a relationship between the latitude and the cloudiness percentage. There are many datapoints 
+          at some specific percentages (0, 20, 40, 75, and 90) and a smaller scattering of other values. This indicates that this 
+          measurement is inexact and may based more on an estimate.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <h1>Visualizations</h1>
+        <hr>
+        <a href="temp.html"><img src="assets/images/Fig1.png" class="smallimage"></a>
+        <a href="humidity.html"><img src="assets/images/Fig2.png" class="smallimage"></a>
+        <a href="cloudiness.html"><img src="assets/images/Fig3.png" class="smallimage"></a>
+        <a href="wind.html"><img src="assets/images/Fig4.png" class="smallimage"></a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

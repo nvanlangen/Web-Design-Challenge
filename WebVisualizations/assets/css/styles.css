@@ -1,3 +1,46 @@
-h1 {
+h1, h2 {
     color: red;
+}
+
+body { 
+    background-color: #DDD;
+}
+.dataframe {
+    border: 0;
+}
+
+tr:nth-child(even) {background: #DDD}
+
+tr:nth-child(odd) {background: #FFF}
+
+td:nth-child(3), td:nth-last-child(-n+5), th:nth-child(3), th:nth-last-child(-n+5) {
+    text-align: right;
+}
+
+th, td {
+    border-bottom: 1px solid #CCC;
+}
+
+.textwrap {
+    float: left;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.textbottom {
+    margin: 10px;
+    width: 600px;
+    height: 500px;
+}
+.smallimage {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.largeimage {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
 }
