@@ -1,12 +1,37 @@
 h1, h2 {
-    color: red;
+    color: aqua;
 }
 
 body { 
     background-color: #DDD;
 }
+
 .dataframe {
     border: 0;
+
+}
+
+.databox {
+    padding-top: 15px;
+    margin-top:20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.imagebox {
+    padding-top: 15px;
+    margin-top:20px;
+    background-color: white;
+    background-clip: content-box;
+}
+
+.imagebox1 {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top:20px;
+    background-color: white;
 }
 
 tr:nth-child(even) {background: #DDD}
@@ -33,10 +58,21 @@ th, td {
     width: 600px;
     height: 500px;
 }
+
 .smallimage {
-    width: 150px;
-    height: 150px;
-    margin: 10px;
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+}
+
+
+.selectedsmallimage {
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: aqua;
 }
 
 .largeimage {
@@ -44,3 +80,22 @@ th, td {
     height: 300px;
     margin: 10px;
 }
+
+@media (max-width: 768px) {
+    .textbottom {
+        width: 400px;
+        height: 330px;
+    }   
+} 
+ 
+@media (max-width: 576px) {
+    .textbottom {
+        width: 300px;
+        height: 250px;
+    } 
+    .largeimage {
+        width: 300px;
+        height: 225px;
+        margin: 10px;
+    }
+}    
