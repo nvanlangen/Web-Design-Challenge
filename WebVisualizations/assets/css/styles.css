@@ -6,6 +6,12 @@ body {
     background-color: #DDD;
 }
 
+.containermargin {
+    margin-left: 15px; 
+    margin-right: 15px; background-color: white;
+    background-color: white;
+}
+
 .dataframe {
     border: 0;
 
@@ -55,8 +61,8 @@ th, td {
 
 .textbottom {
     margin: 10px;
-    width: 600px;
-    height: 500px;
+    width: 570px;
+    height: 490px;
 }
 
 .smallimage {
